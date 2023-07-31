@@ -1,0 +1,13 @@
+verbosity 1
+source leaprc.protein.ff14SB
+source leaprc.gaff
+source leaprc.water.tip3p
+loadoff quinoline_1.acpype/quinoline_1_AC.lib
+loadamberparams quinoline_1.acpype/quinoline_1_AC.frcmod
+complex = loadpdb tmp.pdb
+solvatebox complex TIP3PBOX 10.0
+addions complex Na+ 18
+addions complex Cl- 14
+saveamberparm complex ComplexAmber.prmtop ComplexAmber.inpcrd
+savepdb complex Complex_tleap.pdb
+quit
