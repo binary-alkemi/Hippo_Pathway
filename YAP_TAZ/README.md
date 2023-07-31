@@ -8,14 +8,14 @@ Identification of Quinolinols as Activators of TEAD-Dependent Transcription, ACS
 
 Folder YAP_TAZ is arranged as follows:
 
-PDB structure: 00_cano_str
+1. PDB structure: 00_cano_str
 
-Building missing loop: 01_missing_loop_building
+2. Building missing loop: 01_missing_loop_building
 
-protonate amino acids at correct pH: 02_protonate_Hplusus
+3. Protonated amino acids at pH 7.4: 02_protonate_Hplusus
 
-docking: 03_docking
+4. docking: 03_docking
 
-100 ns simulation: 04_simulation
+5. 100 ns simulation: 04_simulation
 
  
